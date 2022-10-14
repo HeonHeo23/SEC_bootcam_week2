@@ -1,0 +1,1 @@
+console.log("Chris".charAt(Math.floor(Math.random() * 4)));
