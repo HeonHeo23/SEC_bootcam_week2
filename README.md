@@ -56,3 +56,22 @@ console.log(alive, answer);
 function sings({ alive }) { return alive }
 sings(obj)
 ```
+### JSON
+change obj to JSON: JSON.stringfy(obj);   
+convert back to obj: JSON.parse(sendJSON);   
+* obj converted to string, method not preserved
+
+### Error Handling
+JS not strict about errors. To use strict mode or try/catch follow:
+```
+"use strict";   
+try {
+  throw new Error("This is a custom error!");
+} catch (err) {
+  console.error(err);
+  console.warn(err);
+  console.table(err);
+}
+```
+err.message: message only   
+err.stack: full
