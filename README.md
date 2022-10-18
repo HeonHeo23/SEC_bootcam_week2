@@ -92,3 +92,9 @@ elem1.querySelector(".view1")
 ### EventListner
 element1.addEventListener("click", function, uncapture);   
 event.preventDefault();
+
+### Web Storage API
+<script defer src="main.js></script> -> wait until body loaded   
+session/localStorage.setItem("mySessionStore", JSON.stringify(myArray));   
+const mySessionData = JSON.parse(sessionStorage.getItem("mySessionStore"));   
+console.log(mySessionData);
