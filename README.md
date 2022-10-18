@@ -1,4 +1,15 @@
 # SEC_bootcam_week2
+- [SEC_bootcam_week2](#sec-bootcam-week2)
+  * [About the repo](#about-the-repo)
+  * [TIL](#til)
+    1. [== vs ===](#---vs----)
+    2. [One line if](#one-line-if)
+    3. [User Input](#user-input)
+    4. [Array](#array)
+    5. [Object](#object)
+    6. [JSON](#json)
+    7. [Error Handling](#error-handling)
+
 ## About the repo
 This project is for UFSEC bootcamp for new Tech Officer week #2: JS (part 1), which contains 22 chapters with multiple exercises.
 ## TIL
@@ -75,3 +86,15 @@ try {
 ```
 err.message: message only   
 err.stack: full
+### DOM
+elem1.querySelector(".view1")
+
+### EventListner
+element1.addEventListener("click", function, uncapture);   
+event.preventDefault();
+
+### Web Storage API
+<script defer src="main.js></script> -> wait until body loaded   
+session/localStorage.setItem("mySessionStore", JSON.stringify(myArray));   
+const mySessionData = JSON.parse(sessionStorage.getItem("mySessionStore"));   
+console.log(mySessionData);
