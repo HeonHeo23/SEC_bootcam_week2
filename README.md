@@ -98,3 +98,8 @@ event.preventDefault();
 session/localStorage.setItem("mySessionStore", JSON.stringify(myArray));   
 const mySessionData = JSON.parse(sessionStorage.getItem("mySessionStore"));   
 console.log(mySessionData);
+
+### Module
+<script type="module" src="main.js"></script> //module implies strict mode and defer   
+exxport (default) variable/function/class { }   
+import variable/function/class from "./file.js"
